@@ -15,7 +15,7 @@ module Api::V1
     private
 
       def user_params
-        params.require(:idea). permit(:user_id, :firstName, :lastName, :title, :manager_id)
+        params.require(:user). permit(:user_id, :firstName, :lastName, :title, :manager_id)
       end
 
   end
