@@ -1,4 +1,4 @@
-#Rhabit API -Benjamin-G
+# Rhabit API -Benjamin-G
 
 This app is made to connect to the Rhabit React App on localhost/8080.
 
@@ -7,7 +7,7 @@ https://github.com/Benjamin-G/rhabit-react
 
 You can boot up the app after this API is up; both should be running on your local machine to demo this.
 
-##Installation and Running
+## Installation and Running
 
 Make sure you have ruby and rails on your machine
 
