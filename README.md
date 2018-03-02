@@ -1,24 +1,24 @@
-# README
+#Rhabit API -Benjamin-G
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is made to connect to the Rhabit React App on localhost/8080.
 
-Things you may want to cover:
+Rhabit React App can be found here:
+https://github.com/Benjamin-G/rhabit-react
 
-* Ruby version
+You can boot up the app after this API is up; both should be running on your local machine to demo this.
 
-* System dependencies
+##Installation and Running
 
-* Configuration
+Make sure you have ruby and rails on your machine
 
-* Database creation
+`ruby -v
+rails -v
+`
 
-* Database initialization
+Seed the DB on your localmachine
 
-* How to run the test suite
+`rails db:seed`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+To run the api server 
+`rails -s`

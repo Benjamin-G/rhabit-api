@@ -18,10 +18,12 @@ module Api::V1
     end
 
 
-    #should destroy
+    
     def destroy
       @user = User.find(params[:id])
 
+
+      #should update the other employees to have the manager of their current manager who is being fired
       @getting_promoted = User.where(manager_id: @user.user_id)
 
       @getting_promoted.update_all(:manager_id => @user.manager_id)
